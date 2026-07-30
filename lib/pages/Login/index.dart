@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// 登录页（占位，待实现）
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -11,6 +12,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // 顶部标题栏
       appBar: AppBar(title:Text("登录")),
       body: Center(child: Text("登录页面")),
     );

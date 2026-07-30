@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// 分类页（占位，待实现）
 class CategoryView extends StatefulWidget {
   const CategoryView({super.key});
 
